@@ -2,3 +2,4 @@
 .gradle
 .idea
 application-oauth.properties
+# 클라이언트 보안비밀번호는 깃에 추가안되게끔 하기위함

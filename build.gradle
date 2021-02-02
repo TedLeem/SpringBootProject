@@ -39,6 +39,8 @@ dependencies {
 //    인메모리 관계형 DB -> 메모리에서 실행되어 애플리케이션을 재시작할때 마다 초기화됨
 //    별도의 설치 없이 프로젝트 의존성으로만 관리 가능5하고 테스트 용도로 많이 사용됨
     compile('org.springframework.boot:spring-boot-starter-mustache')
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
+    compile('org.springframework.session:spring-session-jdbc')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 
 //    프로젝트 개발에 필요한 의존성들을 선언하는 곳
